@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 144rem;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0 auto;
+  padding: 9rem 2rem;
+}
+
+.card-container {
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  width: 45rem;
+  overflow: hidden;
+  box-shadow: 0px 3rem 3rem 0px hsla(245, 75%, 52%, 0.158);
+}
+
+.main-content {
+  padding: 5rem 4.5rem;
+}
+
+.price-plane {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-height: 9rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+}
+
+h1 {
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: hsl(223, 47%, 23%);
+}
+
+h1 + p {
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.4rem;
+}
+
+.change-link:link,
+.change-link:visited {
+  margin-left: auto;
+  font-family: "Red Hat Display";
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  transition: all 0.3s;
+}
+.change-link:hover,
+.change-link:active {
+  color: rgb(102, 102, 255);
+  text-decoration: none;
+}
+
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active {
+  width: 100%;
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-payment:link,
+.btn-payment:visited {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 1rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 3rem;
+  box-shadow: 0px 1.5rem 2rem 0px rgba(102, 102, 255, 0.308);
+  transition: all 0.3s;
+}
+
+.btn-payment:hover,
+.btn-payment:active {
+  background-color: rgb(102, 102, 255);
+}
+
+.btn-cancel:link,
+.btn-cancel:visited {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 23%, 55%);
+  transition: all 0.3s;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+  color: hsl(223, 47%, 23%);
+}
